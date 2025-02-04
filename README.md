@@ -3,6 +3,8 @@
 ## Prerequisites
 - Docker installed on your machine.
 
+
+
 ## Setup Instructions
 
 1. Clone the repository and navigate into the directory:
@@ -10,6 +12,12 @@
     ```bash
     git clone <repository-url>
     cd <repository-name>
+    ```
+
+2. Add .env file with the following mongodb uri:
+
+    ```bash
+    MONGO_URI=your_mongo_uri;
     ```
 
 2. Build the Docker image for the app:
