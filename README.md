@@ -38,4 +38,4 @@
     sudo docker run --name food-donation-app --link mongodb:mongo --env-file .env -p 5000:5000 food-donation-app
     ```
 
-Now, your app should be running on `http://localhost:5000`.
+Now, your app should be running on `http://localhost:5000`........
